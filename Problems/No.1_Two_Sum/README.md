@@ -7,7 +7,7 @@
 <p>You can return the answer in any order.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong>Example :</strong></p>
 
 <pre><strong>Input:</strong> nums = [2,7,11,15], target = 9
 <strong>Output:</strong> [0,1]
