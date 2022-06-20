@@ -28,5 +28,5 @@
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div>
 
 ---
-***Details of my code***  
-<div class="info__2oQ9"><span>Runtime:&nbsp;<span class="data__HC-i">77 ms</span><span>, faster than <span class="data__HC-i">38.35%</span> of C++ online submissions for Two Sum.</span></span></div><div class="info__2oQ9"><span>Memory Usage:&nbsp;<span class="data__HC-i">10.3 MB</span><span>, less than <span class="data__HC-i">61.45%</span> of C++ online submissions for Two Sum.</span></span></div></div>
+***Explanation of my code***  
+*first
