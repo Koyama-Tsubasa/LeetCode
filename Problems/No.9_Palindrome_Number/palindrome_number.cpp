@@ -11,8 +11,7 @@ public:
                 x_reverse = x_reverse*10 + x_original%10;
                 x_original /= 10;
             }
-            if (x == x_reverse) return true;
-            else return false;
+            return x == x_reverse;
         }
         
     }
