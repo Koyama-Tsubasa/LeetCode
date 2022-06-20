@@ -14,18 +14,6 @@
 <strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
 </pre>
 
-<p><strong>Example 2:</strong></p>
-
-<pre><strong>Input:</strong> nums = [3,2,4], target = 6
-<strong>Output:</strong> [1,2]
-</pre>
-
-<p><strong>Example 3:</strong></p>
-
-<pre><strong>Input:</strong> nums = [3,3], target = 6
-<strong>Output:</strong> [0,1]
-</pre>
-
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
@@ -38,3 +26,8 @@
 
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div>
+
+---
+***Details of my code***  
+
+<div class="container__nthg"><div class="result__23wN"><div class="success__3Ai7">Success</div><a class="detail__1Ye5" href="/submissions/detail/726381723/" target="_blank">Details <svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div class="info__2oQ9"><span>Runtime:&nbsp;<span class="data__HC-i">77 ms</span><span>, faster than <span class="data__HC-i">38.35%</span> of C++ online submissions for Two Sum.</span></span></div><div class="info__2oQ9"><span>Memory Usage:&nbsp;<span class="data__HC-i">10.3 MB</span><span>, less than <span class="data__HC-i">61.45%</span> of C++ online submissions for Two Sum.</span></span></div></div>
