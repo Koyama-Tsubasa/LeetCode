@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         
-        # if first two sums are the solution
+        // if first two sums are the solution
         if ((nums[0]+nums[1]) == target) {
             vector<int> solution = {0, 1};
             return solution;
