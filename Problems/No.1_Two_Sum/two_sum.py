@@ -12,6 +12,8 @@ class Solution(object):
         else:
             find = dict({nums[0]: 0, nums[1]: 1})   # dictionary which save the elements before index i
             loop_size = len(nums)                   # set the loop size
+            
+            # iterate the whole list once
             for i in range(2, loop_size):
                 find_num = target-nums[i]   
                 
