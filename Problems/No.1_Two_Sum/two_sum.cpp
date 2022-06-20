@@ -20,7 +20,7 @@ public:
             }
             
             int find_solution = distance(vector_find.begin(), it);  // calculate the distance between index 0 and it
-            vector<int> solution = {i, find_solution};
+            vector<int> solution = {find_solution, i};
             return solution;
         }
     }
