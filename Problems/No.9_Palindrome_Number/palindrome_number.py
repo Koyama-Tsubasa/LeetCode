@@ -14,7 +14,4 @@ class Solution(object):
             while (x_original!=0):
                 x_reverse = x_reverse*10 + x_original%10
                 x_original = x_original/10
-            if (x == x_reverse):
-                return True
-            else:
-                return False
+            return x == x_reverse
