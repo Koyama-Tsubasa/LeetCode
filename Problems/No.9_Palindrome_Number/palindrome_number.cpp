@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         
-        if ((x >= 0) and (x <= 9)) return true;     // if the digit of x is 1
+        if ((x >= 0) and (x <= 9)) return true;     // if the digit number of x is 1
         else if (x<0 or x%10 == 0) return false;    // if x is negative or ten multiples
         else {
             long x_original = x;    // save the x
