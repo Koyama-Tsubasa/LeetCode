@@ -5,7 +5,7 @@ public:
         int i;
         map<int, int> find_solution;    // map of nums[i] -> i
         
-        // iterate the whole array once
+        // iterate the whole vector once
         for (i=0; i<nums.size(); i++) {
             
             // if find out the solution then break, else insert new key -> index
