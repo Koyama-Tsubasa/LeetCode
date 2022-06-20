@@ -2,26 +2,19 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         
-        // if first two sums are the solution
-        if ((nums[0]+nums[1]) == target) {
-            vector<int> solution = {0, 1};
-            return solution;
-        }
-        else {
-            int i;
-            vector<int> vector_find = {nums[0], nums[1]};   // create a vector to save elements before index i
-            vector<int>::iterator it;                       // an iterator to find element in vector_find
+        int i;
+        map<int, int> find_solution;    // map of nums[i] -> i
+        
+        // iterate the whole array once
+        for (i=0; i<nums.size(); i++) {
             
-            // loop from index 2 to the end
-            for (i=2; i<nums.size(); i++) {
-                it = find(vector_find.begin(), vector_find.end(), target-nums[i]);
-                if (it != vector_find.end()) break;     // find out the solution then break
-                else vector_find.push_back(nums[i]);    // add element of index i into vector_find
-            }
+            // if find out the solution then break, else insert new key -> index
+            if (find_solution.find(target-nums[i]) != find_solution.end()) break;
+            else find_solution[nums[i]] = i;
             
-            int find_solution = distance(vector_find.begin(), it);  // calculate the distance between index 0 and it
-            vector<int> solution = {find_solution, i};
-            return solution;
         }
+        
+        vector<int> solution = {find_solution[target-nums[i]], i};
+        return solution;
     }
 };
