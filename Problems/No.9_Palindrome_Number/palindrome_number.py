@@ -9,8 +9,8 @@ class Solution(object):
         if (x < 0 or (x%10 == 0 and x!=0)):
             return False
         else:
-            x_original = x
-            x_reverse = 0
+            x_original = x  # save the x
+            x_reverse = 0   # calculate the reverse of x
             while (x_original!=0):
                 x_reverse = x_reverse*10 + x_original%10
                 x_original = x_original/10
