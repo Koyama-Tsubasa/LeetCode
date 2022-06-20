@@ -2,8 +2,8 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         
-        if ((x >= 0) and (x <= 9)) return true;     // if the digit number of x is 1
-        else if (x<0 or x%10 == 0) return false;    // if x is negative or ten multiples
+        // whether x is negative or x except 0 is ten multiples or not
+        if (x<0 or (x%10 == 0 and x != 0)) return false;
         else {
             long x_original = x;    // save the x
             long x_reverse = 0;     // calculate the reverse of x
