@@ -1,4 +1,4 @@
-# Palindrome Number
+# [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 <div><p>Given an integer <code>x</code>, return <code>true</code> if <code>x</code> is palindrome integer.</p>
 
@@ -23,12 +23,6 @@
 <strong>Explanation:</strong> From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 </pre>
 
-<p><strong>Example 3:</strong></p>
-
-<pre><strong>Input:</strong> x = 10
-<strong>Output:</strong> false
-<strong>Explanation:</strong> Reads 01 from right to left. Therefore it is not a palindrome.
-</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
