@@ -31,5 +31,4 @@ class Solution(object):
             pre = cur
         
         return output
-        
-        
+       
