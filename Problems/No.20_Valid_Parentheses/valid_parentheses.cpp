@@ -30,8 +30,7 @@ public:
         }
         
         // check if the stack is empty when you finish iterating s
-        if (STACK.empty()) return true;
-        else return false;
+        return STACK.empty();
         
     }
 };
