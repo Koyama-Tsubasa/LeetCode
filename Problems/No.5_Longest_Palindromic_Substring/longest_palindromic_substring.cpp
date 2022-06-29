@@ -7,6 +7,7 @@ public:
         int LPS_start = 0, LPS_length = 1;
         
         // using dynamic programming
+        // dp[2][5] means that whether the index from 2 to 5 in this string is a palindrome or not
         bool dp[s_length][s_length];
         memset(dp, 0, sizeof(dp));
         
