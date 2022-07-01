@@ -23,7 +23,7 @@ public:
         // compute the answer
         while (c < s.length() and 48 <= s[c] and s[c] <= 57) {
             
-            int digit = (s[c]-48);
+            int digit = s[c] - 48;
           
             // check whether it overflow or not
             if (!pos_neg and 
