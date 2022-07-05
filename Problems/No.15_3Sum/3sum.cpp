@@ -26,8 +26,8 @@ public:
                     if (nums[l_index] + nums[r_index] == zero) {
 
                         threesum_ans.push_back({nums[i], nums[l_index], nums[r_index]});
-                        while ((l_index < r_index) && (nums[l_index] == nums[l_index+1])) l_index++;
-                        while ((l_index < r_index) && (nums[r_index-1] == nums[r_index])) r_index--;
+                        while ((l_index < r_index) and (nums[l_index] == nums[l_index+1])) l_index++;
+                        while ((l_index < r_index) and (nums[r_index-1] == nums[r_index])) r_index--;
                         l_index++;
                         r_index--;
 
