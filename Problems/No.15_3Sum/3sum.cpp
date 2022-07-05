@@ -13,7 +13,7 @@ public:
         sort(nums.begin(), nums.end());
         for (int i=0; i<nums.size()-2; i++) {
             
-            // check if it violate the rules
+            // check if it violates the rules
             if (nums[i] > 0) break;
             else if (i == 0 or (i > 0 and (nums[i] != nums[i-1]))) {
                 
