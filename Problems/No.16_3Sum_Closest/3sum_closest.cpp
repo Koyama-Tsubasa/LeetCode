@@ -21,8 +21,18 @@ public:
 
                     temp_sum = nums[i] + nums[l_index] + nums[r_index];
                     if (temp_sum == target) return target;
-                    else if (temp_sum < target) l_index++;
-                    else r_index--;
+                    else if (temp_sum < target) {
+                        
+                        while (l_index < r_index and nums[l_index] == nums[l_index+1]) l_index++;
+                        l_index++;
+                        
+                    }
+                    else {
+                        
+                        while (l_index < r_index and nums[r_index-1] == nums[r_index]) r_index--;
+                        r_index--;
+                        
+                    }
 
                     // update the answer and the difference
                     if (abs(temp_sum-target) < diff) {
