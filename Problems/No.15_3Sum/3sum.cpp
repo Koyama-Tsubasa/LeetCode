@@ -23,7 +23,9 @@ public:
 
                 while (l_index < r_index) {
 
-                    if (nums[l_index] + nums[r_index] == zero) {
+                    if (nums[l_index] + nums[r_index] < zero) l_index++;
+                    else if (nums[l_index] + nums[r_index] > zero) r_index--;
+                    else {
 
                         threesum_ans.push_back({nums[i], nums[l_index], nums[r_index]});
                         while ((l_index < r_index) and (nums[l_index] == nums[l_index+1])) l_index++;
@@ -32,8 +34,6 @@ public:
                         r_index--;
 
                     }
-                    else if (nums[l_index] + nums[r_index] < zero) l_index++;
-                    else r_index--;
                 
                 }
                 
