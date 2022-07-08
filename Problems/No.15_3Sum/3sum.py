@@ -27,17 +27,17 @@ class Solution(object):
                 R_index = len(nums) - 1
                 
                 while (L_index < R_index):
-                    if (nums[L_index] + nums[R_index] == zero):
+                    if (nums[L_index] + nums[R_index] < zero):
+                        L_index += 1
+                    elif (nums[L_index] + nums[R_index] > zero):
+                        R_index -= 1
+                    else:
                         threesum_ans.append([nums[i], nums[L_index], nums[R_index]])
                         while (L_index < R_index and (nums[L_index] == nums[L_index+1])):
                             L_index += 1
                         while (L_index < R_index and (nums[R_index-1] == nums[R_index])):
                             R_index -= 1
                         L_index += 1
-                        R_index -= 1
-                    elif (nums[L_index] + nums[R_index] < zero):
-                        L_index += 1
-                    else:
                         R_index -= 1
                     
         return threesum_ans
