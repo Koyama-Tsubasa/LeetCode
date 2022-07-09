@@ -15,6 +15,7 @@ public:
         // [Optimal Solution]
         // use 2 pointers, first iterate n and this means the difference
         
+        // [My solution]
         // store some parameters
         int sz = 1;
         ListNode* curr = head;
