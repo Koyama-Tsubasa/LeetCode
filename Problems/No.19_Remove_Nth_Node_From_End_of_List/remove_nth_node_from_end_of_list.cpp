@@ -12,6 +12,9 @@ class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         
+        // [Optimal Solution]
+        // use 2 pointers, first iterate n and this means the difference
+        
         // store some parameters
         int sz = 1;
         ListNode* curr = head;
