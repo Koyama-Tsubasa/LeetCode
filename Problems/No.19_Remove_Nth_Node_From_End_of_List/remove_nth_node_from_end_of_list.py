@@ -14,6 +14,7 @@ class Solution(object):
         # [Optimal Solution]
         # use 2 pointers, first iterate n and this means the difference
         
+        # [My solution]
         # store some parameters
         curr = head
         sz = 1
