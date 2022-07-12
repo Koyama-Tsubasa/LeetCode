@@ -27,7 +27,6 @@ class Solution(object):
                 divisor = -divisor
             
             '''
-            
             start compute, use the technique below
             
             ex1 (-15/-3):
@@ -43,7 +42,6 @@ class Solution(object):
                     = (2^2)*(-3) + (2^1)*(-3) + (-3) + (-2)
                     = (2^2 + 2^1 + 1)*(-3) + (-2)
                     = 7*(-3) + (-2)
-                    
             '''
             while (divisor >= dividend):
                 
@@ -51,7 +49,6 @@ class Solution(object):
                 temp_ans = 1
                 
                 '''
-                
                 use the technique below to avoid the overflow
                 
                 ex (-15/-3):
@@ -73,7 +70,6 @@ class Solution(object):
                         DTI_ans = 4 + temp_ans = 5
                         
                     loop 3: divisor = -3 < 0 = dividend, break
-                
                 '''
                 
                 while (temp >= dividend-temp):
