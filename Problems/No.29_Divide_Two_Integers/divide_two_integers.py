@@ -52,8 +52,7 @@ class Solution(object):
                 
                 '''
                 
-                use the technique below to avoid the overflow, 
-                you can try dividend = -2147483648, divisor = -3 without the following while loop
+                use the technique below to avoid the overflow
                 
                 ex (-15/-3):
                     
