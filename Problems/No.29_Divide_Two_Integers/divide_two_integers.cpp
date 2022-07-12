@@ -19,7 +19,6 @@ public:
             if (divisor > 0) divisor = -divisor;
             
             /*
-            
             start compute, use the technique below
 
             ex1 (-15/-3):
@@ -35,7 +34,6 @@ public:
                     = (2^2)*(-3) + (2^1)*(-3) + (-3) + (-2)
                     = (2^2 + 2^1 + 1)*(-3) + (-2)
                     = 7*(-3) + (-2)
-                    
             */
             while (divisor >= dividend) {
                 
@@ -43,7 +41,6 @@ public:
                 temp_ans = 1;
                 
                 /*
-                
                 use the technique below to avoid the overflow, 
                 you can try dividend = -2147483648, divisor = -3 without the following while loop
                 
@@ -66,7 +63,6 @@ public:
                         DTI_ans = 4 + temp_ans = 5
                         
                     loop 3: divisor = -3 < 0 = dividend, break
-                
                 */
                 while (temp >= dividend-temp) {
                     
