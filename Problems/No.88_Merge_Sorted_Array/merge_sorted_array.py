@@ -9,8 +9,7 @@ class Solution(object):
         """
         
         # start compute
-        for i in range(n):
-            nums1.remove(nums1[-1])
+        del nums1[m:m+n]
         nums1.extend(nums2)
         nums1.sort()
         
