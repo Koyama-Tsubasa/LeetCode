@@ -12,11 +12,10 @@
 class Solution {
 public:
     
-    // Inorder Tree Traversal
+    // Binary Tree Inorder Traversal
     void BTIT(TreeNode* node, vector<int> &ans) {
         
-        if (node == NULL) return;
-        else {
+        if (node != NULL) {
             
             BTIT(node->left, ans);
             ans.push_back(node->val);
@@ -32,8 +31,7 @@ public:
         vector<int> BTIT_ans;
         
         // start compute
-        if (root == NULL) return BTIT_ans;
-        else {
+        if (root != NULL) {
             
             BTIT(root->left, BTIT_ans);
             BTIT_ans.push_back(root->val);
