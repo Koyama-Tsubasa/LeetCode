@@ -17,6 +17,7 @@ class Solution(object):
             # first return the previous answer
             s = self.countAndSay(n-1)
             
+            # start counting
             while (i < len(s)):
             
                 cnt = 1
