@@ -18,6 +18,7 @@ public:
         ListNode *ans = NULL, *cur = NULL;
         int top_index;
         
+        // start compute
         if (lists.size() == 0) return nullptr;
         else if (lists.size() == 1) return lists[0];
         else {
