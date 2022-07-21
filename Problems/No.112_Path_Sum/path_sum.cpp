@@ -18,14 +18,8 @@ public:
         
         // start compute
         if (root == NULL) return false;
-        else {
-            
-            // calculate the path sum of next targetSum, check the ending condition or continue finding
-            next_tS = targetSum - root->val;
-            if (next_tS==0 and root->left==NULL and root->right==NULL) return true;
-            else return hasPathSum(root->left, next_tS) or hasPathSum(root->right, next_tS);
-            
-        }
+        else if (root->left==NULL and root->right==NULL) return targetSum==root->val;
+        else return hasPathSum(root->left, targetSum-root->val) or hasPathSum(root->right, targetSum-root->val);
         
     }
 };
