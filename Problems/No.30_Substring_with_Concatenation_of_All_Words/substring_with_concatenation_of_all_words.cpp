@@ -22,7 +22,7 @@ public:
                 temp = s.substr(j, wlen);
                 
                 // check if the substring is in the checking list
-                if (check.count(temp)!=0) cur[temp]++;
+                if (check.count(temp) != 0) cur[temp]++;
                 else break;
                 
                 // check if the number of the substring is smaller or equal to the checking list
