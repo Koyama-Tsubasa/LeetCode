@@ -30,7 +30,7 @@ public:
                 
             }
             
-            // check if the avode for loop ends with no breaking
+            // check if the above for loop ends with no breaking
             if (cur == check) ans.push_back(i);
             cur.clear();
             
