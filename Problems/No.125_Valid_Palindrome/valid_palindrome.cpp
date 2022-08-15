@@ -9,8 +9,8 @@ public:
         // start compute
         while (front < end) {
             
-            if (!isalpha(s[front]) and !isdigit(s[front])) front++;
-            else if (!isalpha(s[end]) and !isdigit(s[end])) end--;
+            if (!isalnum(s[front])) front++;
+            else if (!isalnum(s[end])) end--;
             else if (tolower(s[front++]) != tolower(s[end--])) return false;
             
         }
