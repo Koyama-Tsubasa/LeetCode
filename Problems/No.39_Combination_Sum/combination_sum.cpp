@@ -1,8 +1,8 @@
 class Solution {
 public:
     
-    // using back propagation
-    void back_propagate(vector<int>& candidates, int id, int target, vector<int>& temp, vector<vector<int>>& combinations) {
+    // using backtracking
+    void backtracking(vector<int>& candidates, int id, int target, vector<int>& temp, vector<vector<int>>& combinations) {
         
         // check for each case
         if ((target<0) or (id==candidates.size())) return;
@@ -16,9 +16,9 @@ public:
             
             // cases of involving this num or not
             temp.push_back(candidates[id]);
-            back_propagate(candidates, id, target-candidates[id], temp, combinations);
+            backtracking(candidates, id, target-candidates[id], temp, combinations);
             temp.pop_back();
-            back_propagate(candidates, id+1, target, temp, combinations);
+            backtracking(candidates, id+1, target, temp, combinations);
             
         }
         
@@ -31,7 +31,7 @@ public:
         vector<vector<int>> combinations;
         
         // start compute
-        back_propagate(candidates, 0, target, temp, combinations);
+        backtracking(candidates, 0, target, temp, combinations);
         
         return combinations;
         
