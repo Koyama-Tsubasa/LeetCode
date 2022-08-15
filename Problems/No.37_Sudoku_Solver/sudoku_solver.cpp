@@ -21,13 +21,12 @@ public:
     // sudoku solver using back propagating
     bool SudokuSolver(vector<vector<char>> &board) {
         
-        // parameters
-        int board_size = board.size();
+        // parameter
         bool check_if_solved;
 
         // start compute
-        for (int row=0; row<board_size; row++) {
-            for (int col=0; col<board_size; col++) {
+        for (int row=0; row<9; row++) {
+            for (int col=0; col<9; col++) {
 
                 if (board[row][col]=='.') {
 
