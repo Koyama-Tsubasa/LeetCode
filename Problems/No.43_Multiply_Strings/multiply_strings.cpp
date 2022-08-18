@@ -19,7 +19,7 @@ public:
                     product = (num1[i]-'0')*(num2[j]-'0');
                     product += ans[i+j+1]-'0';
                     ans[i+j+1] = product%10 + '0';
-                    ans[i+j] = ans[i+j] + product/10;
+                    ans[i+j] += product/10;
                     
                 }
             }
