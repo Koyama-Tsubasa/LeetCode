@@ -12,7 +12,7 @@ public:
     // count the number of nodes
     int CountNodes(ListNode *node) {
         
-        int count = 0;
+        int count = 1;
         while (node->next) {
             
             count++;
