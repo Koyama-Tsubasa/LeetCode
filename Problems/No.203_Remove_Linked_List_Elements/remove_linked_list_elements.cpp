@@ -13,23 +13,19 @@ public:
     ListNode* removeElements(ListNode* head, int val) {
         
         // parameter
-        ListNode* curr = head;
+        ListNode* curr;
         ListNode* prev;
 
         // check the first value
         while (head != NULL) {
 
-            if (head->val == val) {
-
-                curr = curr->next;
-                head = head->next;
-
-            }
+            if (head->val == val) head = head->next;
             else break;
 
         }
 
         // check the internal value
+        curr = head;
         prev = curr;
         if (curr != NULL) curr = curr->next;
         while (curr != NULL) {
