@@ -14,8 +14,7 @@ public:
 
         }
 
-        if (Mstep >= sizeN-1) return true;
-        else return false;
+        return true ? (Mstep >= sizeN-1) : false;
 
     }
 };
