@@ -10,7 +10,7 @@ public:
         for (int i=0; i<sizeN; i++) {
 
             if ((i > Mstep) || (Mstep >= sizeN-1)) break;
-            else Mstep = max(Mstep, i+nums[i]);
+            else Mstep = std::max(Mstep, i+nums[i]);
 
         }
 
