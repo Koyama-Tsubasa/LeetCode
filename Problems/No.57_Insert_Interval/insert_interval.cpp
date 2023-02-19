@@ -6,7 +6,7 @@ public:
         intervals.push_back(newInterval);
         std::sort(intervals.begin(), intervals.end());
 
-        // parameter
+        // parameters
         int j = 0;
         std::vector<vector<int>> new_intervals;
 
