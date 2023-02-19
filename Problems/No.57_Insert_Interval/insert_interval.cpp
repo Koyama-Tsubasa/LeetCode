@@ -14,7 +14,7 @@ public:
         new_intervals.push_back(intervals[0]);
         for (int i=1; i<intervals.size(); i++) {
 
-            if (new_intervals[j][1] >= intervals[i][0]) new_intervals[j][1] = max(new_intervals[j][1], intervals[i][1]);
+            if (new_intervals[j][1] >= intervals[i][0]) new_intervals[j][1] = std::max(new_intervals[j][1], intervals[i][1]);
             else {
 
                 new_intervals.push_back(intervals[i]);
