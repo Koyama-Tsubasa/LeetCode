@@ -12,7 +12,7 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         
-        // parameter
+        // parameters
         ListNode *reversed_head, *next_head;
         
         // start computing
