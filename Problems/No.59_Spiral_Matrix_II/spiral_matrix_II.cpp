@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
         
-        // parameter
+        // parameters
         std::vector<std::vector<int>> spiral_matrix(n, std::vector<int>(n, 0));
         int c_start = 0, r_start = 0, c_end = n-1, r_end = n-1;
         int count = 1;
