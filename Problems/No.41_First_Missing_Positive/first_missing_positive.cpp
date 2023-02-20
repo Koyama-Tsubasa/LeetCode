@@ -9,7 +9,7 @@ public:
         // start computing
         while (i < sizeN) {
 
-            if ((nums[i] > 0) && (nums[i] <= sizeN) && 
+            if ((0 < nums[i]) && (nums[i] <= sizeN) && 
                 (nums[nums[i]-1] != nums[i])) std::swap(nums[nums[i]-1], nums[i]);
             else i++;
 
