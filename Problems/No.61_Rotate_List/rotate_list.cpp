@@ -12,12 +12,11 @@ class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
         
-        // parameter
+        // parameters
         int listLength = 0;
         ListNode *cur, *r_point;
 
         // start computing
-        
         // calculate list length
         cur = head;
         while (cur != NULL) {
