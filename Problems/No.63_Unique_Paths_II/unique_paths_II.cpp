@@ -29,8 +29,8 @@ public:
         for (int i=1; i<rowS; i++) {
             for (int j=1; j<colS; j++) {
 
-                if (obstacleGrid[i][j] == 1) continue;
-                else AREA[i][j] = AREA[i-1][j] + AREA[i][j-1];
+                if (obstacleGrid[i][j] == 0) AREA[i][j] = AREA[i-1][j] + AREA[i][j-1];;
+                else continue;
 
             }
         }
