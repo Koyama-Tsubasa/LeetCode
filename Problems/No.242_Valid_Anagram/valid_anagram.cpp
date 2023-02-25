@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isAnagram(string s, string t) {
         
-        // parameters
+        // parameter
         int alphaTable[26] = {0};
 
         // start computing
