@@ -14,7 +14,7 @@ public:
             if (temp != "") {
 
                 if (temp == ".") continue;
-                else if (temp == "..") { if (!relative_paths.empty()) relative_paths.pop(); }
+                else if ((temp == "..") && (!relative_paths.empty())) relative_paths.pop();
                 else relative_paths.push(temp);
 
             }
