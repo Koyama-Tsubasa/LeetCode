@@ -10,8 +10,20 @@ public:
         // start computing
 
         // search the first row & the first column
-        for (int i=0; i<colS; i++) if (matrix[0][i] == 0) rFlag = true;
-        for (int i=0; i<rowS; i++) if (matrix[i][0] == 0) cFlag = true;
+        for (int i=0; i<colS; i++) 
+            if (matrix[0][i] == 0) {
+
+                rFlag = true;
+                break;
+
+            }
+        for (int i=0; i<rowS; i++) 
+            if (matrix[i][0] == 0) {
+
+                cFlag = true;
+                break;
+
+            }
 
         // search for others and convert the corresponding element in the 1st row&column to 0
         for (int i=0; i<rowS; i++)
