@@ -26,7 +26,7 @@ public:
             }
 
         // search for others and convert the corresponding element in the 1st row&column to 0
-        for (int i=0; i<rowS; i++)
+        for (int i=1; i<rowS; i++)
             for (int j=1; j<colS; j++)
                 if (matrix[i][j] == 0) 
                     matrix[i][0] = matrix[0][j] = 0;
