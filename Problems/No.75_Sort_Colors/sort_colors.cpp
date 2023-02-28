@@ -7,7 +7,7 @@ public:
         int left = 0;
         int right = nums.size() - 1;
 
-        // start computing
+        // start computing (use Dutch National Flag algorithm)
         while (cur <= right) 
             switch(nums[cur]) {
 
