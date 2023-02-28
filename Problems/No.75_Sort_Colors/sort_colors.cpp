@@ -16,13 +16,16 @@ public:
                     left++;
                     cur++;
                     break;
+
                 case 1:
                     cur++;
                     break;
+
                 case 2:
                     std::swap(nums[cur], nums[right]);
                     right--;
                     break;
+                    
                 default:
                     break;
 
