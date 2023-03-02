@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    // create subset under size s
+    // create subset under corresponding size
     void create_subsets(int start, int end, int size, std::vector<int> &set, std::vector<int> &subset, std::vector<std::vector<int>> &subsets) {
 
         if (subset.size() == size) subsets.push_back(subset);
