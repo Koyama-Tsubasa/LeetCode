@@ -1,6 +1,8 @@
 class Solution {
 
 private:
+    
+    // check if the word strings start from the current index contain the desired word
     bool checkBoard(std::vector<std::vector<char>> &board, std::string word, int row, int col, int checkP) {
 
         // parameters
