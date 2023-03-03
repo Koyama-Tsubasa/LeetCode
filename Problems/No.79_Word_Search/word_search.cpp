@@ -27,14 +27,10 @@ private:
 
 public:
     bool exist(vector<vector<char>>& board, string word) {
-        
-        //parameters
-        int row = board.size();
-        int col = board[0].size();
-
+       
         // start computing
-        for (int i=0; i<row; i++)
-            for (int j=0; j<col; j++)
+        for (int i=0; i<board.size(); i++)
+            for (int j=0; j<board[0].size(); j++)
                 if (checkBoard(board, word, i, j, 0))
                     return true;
         
