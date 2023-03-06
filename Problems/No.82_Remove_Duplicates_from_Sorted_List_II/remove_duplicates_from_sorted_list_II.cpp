@@ -19,7 +19,7 @@ public:
 
         // start computing
         if ((head == NULL) || (head->next == NULL)) return head;
-        dLast = dFirst->next->next;
+        else dLast = dFirst->next->next;
         while (dLast != NULL) {
 
             NULL_check = false;
