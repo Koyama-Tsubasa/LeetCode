@@ -7,7 +7,7 @@ public:
         bool flag;
         int s_length = s.length();
         int p_length = p.length();
-        std::vector<std::vector<bool>> matching(p_length+1, std::vector<bool>(s_length+1, false));
+        std::vector<std::vector<bool>> matching(p_length+1, std::vector<bool>(s_length+1));
 
         // start computing (use Dynamic Proramming)
         // reference: https://reurl.cc/XL5ZV0
