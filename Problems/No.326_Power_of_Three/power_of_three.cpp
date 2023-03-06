@@ -7,8 +7,7 @@ public:
         else {
 
             double power = std::log10(n)/std::log10(3);
-            if ((power - int(power)) == 0) return true;
-            else return false;
+            return ((power - int(power)) == 0);
 
         } 
 
