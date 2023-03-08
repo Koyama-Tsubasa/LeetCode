@@ -1,6 +1,7 @@
 # LeetCode
 
-[LeetCode](https://leetcode.com/explore/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews. 
+[LeetCode](https://leetcode.com/explore/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
+
 In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation), the following topics may be important than others:
 
 
