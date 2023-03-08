@@ -10,6 +10,13 @@
 [Stack](https://leetcode.com/tag/stack/), 
 [Queue](https://leetcode.com/tag/queue/), 
 [Hash Table](https://leetcode.com/tag/hash-table/)
+* Basic Algorithms:  
+[Math](https://leetcode.com/tag/math/), 
+[Sorting](https://leetcode.com/tag/sorting/), 
+[Greedy](https://leetcode.com/tag/greedy/), 
+[Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/), 
+[Dynamic Programming](https://leetcode.com/tag/dynamic-programming/), 
+[Backtracking](https://leetcode.com/tag/backtracking/)
 * Tree-based Data Structures & Algorithms:  
 [Tree](https://leetcode.com/tag/tree/), 
 [Binary Tree](https://leetcode.com/tag/binary-tree/), 
@@ -25,12 +32,6 @@
 [Topological Sort](https://leetcode.com/tag/topological-sort/), 
 Network Flow
 * Other Algorithms:  
-[Math](https://leetcode.com/tag/math/), 
-[Sorting](https://leetcode.com/tag/sorting/), 
-[Greedy](https://leetcode.com/tag/greedy/), 
-[Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/), 
-[Dynamic Programming](https://leetcode.com/tag/dynamic-programming/), 
-[Backtracking](https://leetcode.com/tag/backtracking/), 
 [Prefix Sum](https://leetcode.com/tag/prefix-sum/), 
 [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/), 
 [Sliding Window](https://leetcode.com/tag/sliding-window/), 
