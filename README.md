@@ -1,7 +1,7 @@
 # LeetCode
 
 [LeetCode](https://leetcode.com/explore/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews. In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation), the following topics may be recomended:  
-* Basic Data Structures: 
+* Basic Data Structures:  
 [String](https://leetcode.com/tag/string/), 
 [Linked List](https://leetcode.com/tag/linked-list/), 
 [Doubly-Linked List](https://leetcode.com/tag/doubly-linked-list/), 
@@ -10,7 +10,7 @@
 [Stack](https://leetcode.com/tag/stack/), 
 [Queue](https://leetcode.com/tag/queue/), 
 [Hash Table](https://leetcode.com/tag/hash-table/)
-* Tree-based Data Structures & Algorithms: 
+* Tree-based Data Structures & Algorithms:  
 [Tree](https://leetcode.com/tag/tree/), 
 [Binary Tree](https://leetcode.com/tag/binary-tree/), 
 [Binary Search](https://leetcode.com/tag/binary-search/), 
@@ -24,7 +24,7 @@
 [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), 
 [Topological Sort](https://leetcode.com/tag/topological-sort/), 
 Network Flow
-* Other Algorithms: 
+* Other Algorithms:  
 [Math](https://leetcode.com/tag/math/), 
 [Sorting](https://leetcode.com/tag/sorting/), 
 [Greedy](https://leetcode.com/tag/greedy/), 
