@@ -18,7 +18,7 @@
 [Segment Tree](https://leetcode.com/tag/segment-tree/), 
 [Graph](https://leetcode.com/tag/graph/), 
 [Minimum Spanning Tree](https://leetcode.com/tag/minimum-spanning-tree/), 
-[Depth-Search Search](https://leetcode.com/tag/depth-first-search/), 
+[Depth-Search Search](https://leetcode.com/tag/depth-first-search/),  
 [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/), 
 [Shortest Path](https://leetcode.com/tag/shortest-path/), 
 [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), 
