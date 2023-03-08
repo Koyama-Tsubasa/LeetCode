@@ -1,7 +1,7 @@
 # LeetCode
 
 [LeetCode](https://leetcode.com/explore/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews. In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation), the following topics may be recomended:  
-* Basic Data Structure: 
+* Basic Data Structures: 
 [String](https://leetcode.com/tag/string/), 
 [Linked List](https://leetcode.com/tag/linked-list/), 
 [Doubly-Linked List](https://leetcode.com/tag/doubly-linked-list/), 
@@ -10,33 +10,33 @@
 [Stack](https://leetcode.com/tag/stack/), 
 [Queue](https://leetcode.com/tag/queue/), 
 [Hash Table](https://leetcode.com/tag/hash-table/)
-* Tree-based Data Structure: 
+* Tree-based Data Structures & Algorithms: 
 [Tree](https://leetcode.com/tag/tree/), 
 [Binary Tree](https://leetcode.com/tag/binary-tree/), 
+[Binary Search](https://leetcode.com/tag/binary-search/), 
 [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/), 
 [Segment Tree](https://leetcode.com/tag/segment-tree/), 
-[Graph](https://leetcode.com/tag/graph/)
-* [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/), 
-[Math](https://leetcode.com/tag/math/), 
-[Depth-Search Search](https://leetcode.com/tag/depth-first-search/), 
-[Sorting](https://leetcode.com/tag/sorting/), 
-[Greedy](https://leetcode.com/tag/greedy/), 
-[Breadth-First Search](https://leetcode.com/tag/breadth-first-search/), 
-[Binary Search](https://leetcode.com/tag/binary-search/), 
-[Bit Manipulation](https://leetcode.com/tag/bit-manipulation/), 
-[Backtracking](https://leetcode.com/tag/backtracking/), 
-[Prefix Sum](https://leetcode.com/tag/prefix-sum/), 
-[Sliding Window](https://leetcode.com/tag/sliding-window/), 
-[Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/), 
-[Enumeration](https://leetcode.com/tag/enumeration/), 
-[Hash Function](https://leetcode.com/tag/hash-function/), 
-[Shortest Path](https://leetcode.com/tag/shortest-path/), 
-[Doubly-Linked List](https://leetcode.com/tag/doubly-linked-list/), 
+[Graph](https://leetcode.com/tag/graph/), 
 [Minimum Spanning Tree](https://leetcode.com/tag/minimum-spanning-tree/), 
-[Line Sweep](https://leetcode.com/tag/line-sweep/), 
+[Depth-Search Search](https://leetcode.com/tag/depth-first-search/), 
+[Breadth-First Search](https://leetcode.com/tag/breadth-first-search/), 
+[Shortest Path](https://leetcode.com/tag/shortest-path/), 
 [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), 
 [Topological Sort](https://leetcode.com/tag/topological-sort/), 
 Network Flow
+* Other Algorithms: 
+[Math](https://leetcode.com/tag/math/), 
+[Sorting](https://leetcode.com/tag/sorting/), 
+[Greedy](https://leetcode.com/tag/greedy/), 
+[Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/), 
+[Dynamic Programming](https://leetcode.com/tag/dynamic-programming/), 
+[Backtracking](https://leetcode.com/tag/backtracking/), 
+[Prefix Sum](https://leetcode.com/tag/prefix-sum/), 
+[Bit Manipulation](https://leetcode.com/tag/bit-manipulation/), 
+[Sliding Window](https://leetcode.com/tag/sliding-window/), 
+[Enumeration](https://leetcode.com/tag/enumeration/), 
+[Hash Function](https://leetcode.com/tag/hash-function/), 
+[Line Sweep](https://leetcode.com/tag/line-sweep/)
 
 ## Future Plans
 * 3/13 ~ 3/19: [Greedy](https://leetcode.com/tag/greedy/)
