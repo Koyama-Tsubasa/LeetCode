@@ -2,6 +2,7 @@
 
 [LeetCode](https://leetcode.com/explore/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 
+## Future Plans
 * 3/13 ~ 3/19: [Greedy](https://leetcode.com/tag/greedy/)
 * 3/20 ~ 3/26: [Bread-First Search](https://leetcode.com/tag/breadth-first-search/)
 * 3/27 ~ 4/2: [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/)
