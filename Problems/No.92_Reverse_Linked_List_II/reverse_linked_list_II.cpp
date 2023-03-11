@@ -14,7 +14,7 @@ public:
         
         // parameters
         ListNode *curr = head, *prev = NULL;
-        ListNode *before_left, *reverse_end, *reverse_next = NULL;
+        ListNode *before_left, *reverse_end, *reverse_next;
 
         // start computing
         if (left == right) return head;
