@@ -40,10 +40,7 @@ Network Flow
 [Line Sweep](https://leetcode.com/tag/line-sweep/)
 
 ## Future Plans
-
-```diff
-- 3/13 ~ 3/19: [Greedy](https://leetcode.com/tag/greedy/)
-```
+* 3/13 ~ 3/19: [Greedy](https://leetcode.com/tag/greedy/) \leftarrow
 * 3/20 ~ 3/26: [Bread-First Search](https://leetcode.com/tag/breadth-first-search/)
 * 3/27 ~ 4/2: [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/)
 * 4/3 ~ 4/9: [Graph](https://leetcode.com/tag/graph/)
