@@ -12,7 +12,7 @@ public:
 
     vector<string> restoreIpAddresses(string s) {
         
-        // parameter
+        // parameters
         int s_length = s.length();
         string first, second, third, forth;
         std::vector<std::string> possibleIP;
