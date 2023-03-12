@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
         
-        // parameter
+        // parameters
         std::unordered_map<int, int> num_set;
         std::vector<int> intersection;
 
