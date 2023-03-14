@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-
+        
         // start computing
         if (n == 0) return true;
         else {
@@ -12,18 +12,16 @@ public:
                     (((i == 0) || !flowerbed[i-1]) && 
                     ((i == flowerbed.size()-1) || !flowerbed[i+1]))) {
                     
-                    flowerbed[i] = 1;
                     n--;
-
                     if (n == 0) return true;
+                    flowerbed[i] = 1;
 
                 }
 
             }
+            return false;
 
         }
-
-        return false;
 
     }
 };
