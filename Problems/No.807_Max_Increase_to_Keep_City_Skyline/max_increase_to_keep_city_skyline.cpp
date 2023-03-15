@@ -7,7 +7,6 @@ public:
         std::vector<int> max_col(grid[0].size(), 0), max_row(grid.size(), 0);
 
         // start computing
-
         // find the maximum of each column
         for (int col=0; col<grid[0].size(); col++)
             for (int row=0; row<grid.size(); row++)
