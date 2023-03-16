@@ -2,7 +2,7 @@ class Solution {
 public:
     long long minimalKSum(vector<int>& nums, int k) {
         
-        // parameter
+        // parameters
         long long appended_sum = 0;
         int added_num = 0;
         int i = 1;
