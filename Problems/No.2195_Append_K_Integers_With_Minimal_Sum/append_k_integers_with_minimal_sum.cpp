@@ -18,7 +18,7 @@ public:
             if (added_num > 0) {
                 
                 appended_sum += ((nums[i-1]+1) + (nums[i-1]+std::min(added_num, k)))*(long)std::min(added_num, k)/2;
-                k -= added_num;cout<<k<<endl;
+                k -= added_num;
 
             }
             i++;
