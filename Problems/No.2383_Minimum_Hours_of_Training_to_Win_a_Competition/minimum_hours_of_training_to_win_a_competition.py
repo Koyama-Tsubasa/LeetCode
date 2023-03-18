@@ -9,13 +9,13 @@ class Solution(object):
         """
 
         # parameters
-        EnergySum = 0
+        ExtraEnergy = (-1)*initialEnergy
         ExtraExp, ExpGap = 0, 0
 
         # start computing
         for id in range(len(energy)):
             # compute energy
-            EnergySum += energy[id]
+            ExtraEnergy += energy[id]
             # compute experience
             if (experience[id] >= initialExperience):
                 ExpGap = experience[id] - initialExperience + 1
@@ -24,4 +24,4 @@ class Solution(object):
             else:
                 initialExperience += experience[id]
         
-        return (max((EnergySum - initialEnergy + 1), 0) + ExtraExp)
+        return (max((ExtraEnergy + 1), 0) + ExtraExp)
