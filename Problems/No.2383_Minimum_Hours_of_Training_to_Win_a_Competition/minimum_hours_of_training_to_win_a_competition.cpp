@@ -3,14 +3,14 @@ public:
     int minNumberOfHours(int initialEnergy, int initialExperience, vector<int>& energy, vector<int>& experience) {
         
         // parameters
-        int EnergySum = 0;
+        int ExtraEnergy = (-1)*initialEnergy;
         int ExtraExp = 0, ExpGap;
 
         // start computing
         for (int id=0; id<energy.size(); id++) {
 
             // compute energy
-            EnergySum += energy[id];
+            ExtraEnergy += energy[id];
 
             // compute experience
             if (experience[id] >= initialExperience) {
@@ -24,7 +24,7 @@ public:
 
         }
 
-        return (std::max((EnergySum - initialEnergy + 1), 0) + ExtraExp);
+        return (std::max((ExtraEnergy + 1), 0) + ExtraExp);
 
     }
 };
