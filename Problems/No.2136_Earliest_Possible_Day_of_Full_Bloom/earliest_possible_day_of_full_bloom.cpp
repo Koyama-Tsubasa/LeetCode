@@ -2,7 +2,7 @@ class Solution {
 public:
     int earliestFullBloom(vector<int>& plantTime, vector<int>& growTime) {
         
-        // parameter
+        // parameters
         std::vector<std::pair<int, int>> GP_times;
         int earliest_possible_day = 0, pT_sum = 0;
 
