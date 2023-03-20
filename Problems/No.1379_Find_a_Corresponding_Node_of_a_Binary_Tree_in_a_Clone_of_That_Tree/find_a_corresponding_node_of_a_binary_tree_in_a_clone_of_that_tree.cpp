@@ -12,7 +12,7 @@ class Solution {
 public:
     TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
         
-        // parameter
+        // parameters
         std::queue<TreeNode*> Q;
         TreeNode *curr = NULL;
 
