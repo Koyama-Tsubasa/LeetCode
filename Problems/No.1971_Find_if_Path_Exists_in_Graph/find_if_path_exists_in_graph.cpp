@@ -6,7 +6,7 @@ public:
         std::vector<std::vector<int>> edge_list(n);
         std::vector<bool> arrivable_nodes(n, false);
         std::queue<int> node2go;
-        int Q_size, curr;
+        int curr;
 
         // start computing
         // collate edges
