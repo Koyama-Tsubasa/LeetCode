@@ -13,7 +13,7 @@ class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
         
-        // parameter
+        // parameters
         std::queue<std::pair<TreeNode*, TreeNode*>> TNodes;
         std::pair<TreeNode*, TreeNode*> curr_pair;
 
