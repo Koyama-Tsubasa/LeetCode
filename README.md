@@ -1,7 +1,8 @@
 # LeetCode
 
 [LeetCode](https://leetcode.com/explore/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
-It has over 2,300 questions covering many different programming concepts and offers weekly and bi-weekly contests.
+It has over 2,300 questions covering many different programming concepts, support for over 18 programming languages, and an active community that is always there to help you with the solutions you come up with.
+If your intention is to hone your coding skills, then this online judge platform is one of the best that you can use.
 The programming tasks are offered in English and Chinese.
 
 In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation), the following topics may be recommended:  
