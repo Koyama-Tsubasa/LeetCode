@@ -1,7 +1,8 @@
 # LeetCode
 
 [LeetCode](https://leetcode.com/explore/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
-LeetCode has over 2,300 questions covering many different programming concepts and offers weekly and bi-weekly contests. The programming tasks are offered in English and Chinese.
+It has over 2,300 questions covering many different programming concepts and offers weekly and bi-weekly contests.
+The programming tasks are offered in English and Chinese.
 
 In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation), the following topics may be recommended:  
 * Basic Data Structures:  
