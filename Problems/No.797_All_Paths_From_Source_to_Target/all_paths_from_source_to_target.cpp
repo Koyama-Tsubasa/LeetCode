@@ -3,6 +3,7 @@ public:
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
         
         // parameters
+        int target = graph.size()-1;
         std::vector<std::vector<int>> AllPaths2Target;
         std::queue<std::vector<int>> AllPaths;
 
@@ -16,7 +17,7 @@ public:
             for (auto nextNode: graph[currPath.back()]) {
 
                 currPath.push_back(nextNode);
-                if (nextNode == graph.size()-1) AllPaths2Target.push_back(currPath);
+                if (nextNode == target) AllPaths2Target.push_back(currPath);
                 else AllPaths.push(currPath);
                 currPath.pop_back();
 
