@@ -15,9 +15,11 @@ class Solution(object):
         while AllPaths:
             currPath = AllPaths.pop(0)
             for nextNode in graph[currPath[-1]]:
+                currPath.append(nextNode)
                 if (nextNode == target):
-                    AllPaths2Target.append(currPath+[nextNode])
+                    AllPaths2Target.append(list(currPath))
                 else:
-                    AllPaths.append(currPath+[nextNode])
+                    AllPaths.append(list(currPath))
+                currPath.pop()
         
         return AllPaths2Target
