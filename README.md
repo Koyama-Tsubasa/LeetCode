@@ -1,4 +1,4 @@
-# LeetCode
+# LeetCode - The World's Leading Online Programming Learning Platform -
 
 [LeetCode](https://leetcode.com/explore/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 It has over 2,300 questions covering many different programming concepts, support for over 18 programming languages, and an active community that is always there to help you with the solutions you come up with.
