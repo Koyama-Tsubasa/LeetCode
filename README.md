@@ -22,7 +22,7 @@ In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wi
 [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/), 
 [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/), 
 [Backtracking](https://leetcode.com/tag/backtracking/)
-* Tree-based Data Structures & Algorithms:  
+* Tree-based Data Structures & Relevant Algorithms:  
 [Tree](https://leetcode.com/tag/tree/), 
 [Binary Tree](https://leetcode.com/tag/binary-tree/), 
 [Binary Search](https://leetcode.com/tag/binary-search/), 
