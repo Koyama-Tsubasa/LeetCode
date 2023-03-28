@@ -4,18 +4,18 @@ public:
         
         // parameters
         std::vector<int> MS_Sequence;
-        std::priority_queue<int> Heap;
+        std::priority_queue<int> MAX_Heap;
         std::map<int, int> LargestSum;
 
         // start computing
         // create MAX-Heap
-        for (auto &num: nums) Heap.push(num);
+        for (auto &num: nums) MAX_Heap.push(num);
 
         // find largest sum
         for (int i=0; i<k; i++) {
 
-            LargestSum[Heap.top()]++;
-            Heap.pop();
+            LargestSum[MAX_Heap.top()]++;
+            MAX_Heap.pop();
 
         }
 
