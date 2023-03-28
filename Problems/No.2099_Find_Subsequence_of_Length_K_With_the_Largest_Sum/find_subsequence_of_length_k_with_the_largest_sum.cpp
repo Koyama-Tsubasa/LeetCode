@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> maxSubsequence(vector<int>& nums, int k) {
         
-        // parameter
+        // parameters
         std::vector<int> MS_Sequence;
         std::priority_queue<int> IncreasingOrder;
         std::map<int, int> LargestSum;
