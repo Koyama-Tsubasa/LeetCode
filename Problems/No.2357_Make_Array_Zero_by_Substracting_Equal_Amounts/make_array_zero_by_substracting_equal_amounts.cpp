@@ -2,7 +2,7 @@ class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
         
-        // parameters
+        // parameter
         std::unordered_set<int> numSet;
 
         // start computing
