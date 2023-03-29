@@ -22,7 +22,7 @@ public:
             }
 
         }
-        for (auto gap_num: gapNum_mapping)
+        for (auto &gap_num: gapNum_mapping)
             MAX_Heap.push({gap_num.first, gap_num.second});
 
         // check if the gap can be eliminated
