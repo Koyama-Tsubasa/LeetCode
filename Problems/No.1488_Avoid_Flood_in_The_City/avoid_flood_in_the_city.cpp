@@ -16,7 +16,7 @@ public:
         for (int i=0; i<rains.size(); i++) {
             if (rains[i]) {
 
-                // check if it rains over this lake
+                // check if it rained over this lake
                 if (last_rainy_day.find(rains[i]) != last_rainy_day.end()) 
                     next_rainy_day[last_rainy_day[rains[i]]] = i;
                 last_rainy_day[rains[i]] = i;
