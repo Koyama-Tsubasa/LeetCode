@@ -16,6 +16,7 @@ public:
         for (int i=0; i<rains.size(); i++) {
             if (rains[i]) {
 
+                // check if it rains over this lake
                 if (last_rainy_day.find(rains[i]) != last_rainy_day.end()) 
                     next_rainy_day[last_rainy_day[rains[i]]] = i;
                 last_rainy_day[rains[i]] = i;
@@ -28,6 +29,7 @@ public:
 
             if (rains[i]) {
 
+                // check if it will flood
                 if (!Date_of_Flood.empty() && Date_of_Flood.top() <= i) return {};
                 else if (next_rainy_day[i] != -1) Date_of_Flood.push(next_rainy_day[i]);
                 flood_avoidance.push_back(-1);
@@ -35,6 +37,7 @@ public:
             }
             else {
 
+                // check if there is a lake to dry
                 if (Date_of_Flood.empty()) flood_avoidance.push_back(1);
                 else {
 
