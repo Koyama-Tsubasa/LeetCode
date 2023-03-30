@@ -30,7 +30,7 @@ public:
             if (rains[i]) {
 
                 // check if it will flood
-                if (!Date_of_Flood.empty() && Date_of_Flood.top() <= i) return {};
+                if (!Date_of_Flood.empty() && (Date_of_Flood.top() <= i)) return {};
                 else if (next_rainy_day[i] != -1) Date_of_Flood.push(next_rainy_day[i]);
                 flood_avoidance.push_back(-1);
 
