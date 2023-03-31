@@ -18,11 +18,9 @@ class Solution(object):
             heapq.heappush(IntSetSize, [(-1)*Size, Int])
 
         # removing them iteratively
-        total_size = len(arr)
         removed_size = 0
-        while ((-1)*removed_size < total_size//2):
+        while ((-1)*removed_size < len(arr)//2):
             removed_set_num += 1
-            removed_size += IntSetSize[0][0]
-            heapq.heappop(IntSetSize)
+            removed_size += heapq.heappop(IntSetSize)[0]
 
         return removed_set_num
