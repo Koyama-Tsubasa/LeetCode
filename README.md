@@ -45,8 +45,7 @@ Network Flow
 [Line Sweep](https://leetcode.com/tag/line-sweep/)
 
 ## Future Plans
-* **3/27 ~ 4/2: [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/)**
-* 4/3 ~ 4/9: [Graph](https://leetcode.com/tag/graph/)
+* **4/3 ~ 4/9: [Graph](https://leetcode.com/tag/graph/)**
 * 4/10 ~ 4/16: [Prefix Sum](https://leetcode.com/tag/prefix-sum/)
 * 4/17 ~ 4/23: [Sliding Window](https://leetcode.com/tag/sliding-window/)
 * 4/24 ~ 4/30: [Queue](https://leetcode.com/tag/queue/)
