@@ -2,7 +2,7 @@ class Solution {
 public:
     long long pickGifts(vector<int>& gifts, int k) {
         
-        // parameter
+        // parameters
         std::priority_queue<int> GiftPiles;
         long long remaining_gifts = 0;
 
