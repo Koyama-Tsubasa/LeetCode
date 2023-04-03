@@ -1,6 +1,6 @@
-class SORTracker {
 // reference:
 // https://leetcode.com/problems/sequentially-ordinal-rank-tracker/solutions/1958764/c-priority-queue-min-and-max-heap/
+class SORTracker {
 
 private:
     // custom comparison operators
