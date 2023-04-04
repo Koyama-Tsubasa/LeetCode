@@ -34,8 +34,7 @@ In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wi
 [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/), 
 [Shortest Path](https://leetcode.com/tag/shortest-path/), 
 [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), 
-[Topological Sort](https://leetcode.com/tag/topological-sort/), 
-Network Flow
+[Topological Sort](https://leetcode.com/tag/topological-sort/)
 * Other Algorithms:  
 [Prefix Sum](https://leetcode.com/tag/prefix-sum/), 
 [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/), 
@@ -55,4 +54,3 @@ Network Flow
 * 5/22 ~ 5/28: [Shortest Path](https://leetcode.com/tag/shortest-path/)
 * 5/29 ~ 6/4: [Doubly-Linked List](https://leetcode.com/tag/doubly-linked-list/), [Minimum Spanning Tree](https://leetcode.com/tag/minimum-spanning-tree/), [Line Sweep](https://leetcode.com/tag/line-sweep/)
 * 6/5 ~ 6/11: [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), [Topological Sort](https://leetcode.com/tag/topological-sort/)
-* 6/12 ~ 6/18: Network Flow
