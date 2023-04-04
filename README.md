@@ -34,7 +34,7 @@ In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wi
 [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/), 
 [Shortest Path](https://leetcode.com/tag/shortest-path/), 
 [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), 
-[Topological Sort](https://leetcode.com/tag/topological-sort/)
+[Topological Sort](https://leetcode.com/tag/topological-sort/), (Network Flow)
 * Other Algorithms:  
 [Prefix Sum](https://leetcode.com/tag/prefix-sum/), 
 [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/), 
