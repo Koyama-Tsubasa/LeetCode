@@ -20,7 +20,7 @@ public:
                 room_count++;
                 visited[key] = true;
                 for (auto find_key: rooms[key]) 
-                    if (visited[find_key] == false) keys.push(find_key);
+                    keys.push(find_key);
 
             }
 
