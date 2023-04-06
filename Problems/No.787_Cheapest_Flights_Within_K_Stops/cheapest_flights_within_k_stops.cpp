@@ -16,7 +16,7 @@ public:
 
         }
 
-        // start visiting K stops using BFS & Dijkstra
+        // start visiting at most K stops using BFS & Dijkstra
         flight.push({src, 0});
         price_to_dest[src] = 0;
         for (int i=0; i<=k; i++) {
