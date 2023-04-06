@@ -11,8 +11,8 @@ public:
         // construct graph information
         for (auto ticket: flights) {
 
-            auto s = ticket[0], d = ticket[1], cost = ticket[2];
-            flight_graph[s].push_back({d, cost});
+            auto s = ticket[0], d = ticket[1], t_cost = ticket[2];
+            flight_graph[s].push_back({d, t_cost});
 
         }
 
