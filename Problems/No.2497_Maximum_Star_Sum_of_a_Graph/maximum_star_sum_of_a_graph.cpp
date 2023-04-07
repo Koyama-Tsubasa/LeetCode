@@ -2,7 +2,7 @@ class Solution {
 public:
     int maxStarSum(vector<int>& vals, vector<vector<int>>& edges, int k) {
         
-        // parameter
+        // parameters
         int MAX_star_sum = INT_MIN;
         int node_size = vals.size();
         std::vector<std::vector<int>> edge_weight(node_size);
