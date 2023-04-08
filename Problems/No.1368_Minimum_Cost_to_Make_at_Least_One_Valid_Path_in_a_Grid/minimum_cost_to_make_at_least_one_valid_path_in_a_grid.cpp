@@ -30,7 +30,7 @@ public:
             }
             
             // check if the current grid is the goal
-            if ((curr_grid_r == m-1) && (curr_grid_c == n-1)) break;
+            if (curr_grid == m*n-1) break;
             else {
                 
                 // check the surrounding grids
