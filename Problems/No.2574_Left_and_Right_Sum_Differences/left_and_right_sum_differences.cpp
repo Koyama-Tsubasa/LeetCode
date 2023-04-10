@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> leftRigthDifference(vector<int>& nums) {
         
-        // parameter
+        // parameters
         std::vector<int> LSum(nums.size()+1, 0);
         std::vector<int> LRDifference;
 
