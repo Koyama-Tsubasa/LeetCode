@@ -14,9 +14,7 @@ public:
             for (int i=0; i<num_of_house; i++) {
 
                 int picked_g_size = std::count(garbage[i].begin(), garbage[i].end(), g);
-                if (i+1 < num_of_house) to_the_next_stop = travel[i];
-                else to_the_next_stop = -1;
-                
+                to_the_next_stop = (i+1 < num_of_house) ? travel[i] : -1;
                 if (picked_g_size > 0) {
 
                     total_time += partial_time + picked_g_size;
