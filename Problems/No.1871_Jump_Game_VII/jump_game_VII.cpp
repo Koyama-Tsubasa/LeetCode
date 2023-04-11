@@ -7,6 +7,7 @@ public:
         std::queue<int> index;
 
         // start computing
+        if (s[s_length-1] == '1') return false;
         int MAX_idx = 0;
         index.push(0);
         while (!index.empty()) {
