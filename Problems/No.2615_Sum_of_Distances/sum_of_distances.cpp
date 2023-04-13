@@ -7,6 +7,7 @@ public:
         std::vector<long long> SoD(nums.size(), 0);
 
         // start computing
+        // count the total sum and # of each num
         for (int i=0; i<nums.size(); i++) {
 
             num_count_sum[nums[i]].first++;
