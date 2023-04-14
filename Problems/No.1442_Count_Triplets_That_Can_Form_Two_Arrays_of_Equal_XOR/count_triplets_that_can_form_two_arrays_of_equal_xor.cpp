@@ -2,12 +2,9 @@ class Solution {
 public:
     int countTriplets(vector<int>& arr) {
 
-        // reference:
-        // https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solutions/2996996/c-code-using-map-tc-o-n-for-linear-traversal-sc-o-n-for-map/
-        
-	    // parameter
+	// parameter
         int triplet_count = 0;
-		std::unordered_map<int, std::vector<int>> xor_idx;
+	std::unordered_map<int, std::vector<int>> xor_idx;
 
         // start computing
         int xor_sum = 0;
