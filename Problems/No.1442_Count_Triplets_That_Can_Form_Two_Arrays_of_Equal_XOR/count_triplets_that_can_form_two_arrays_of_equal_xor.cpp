@@ -2,7 +2,7 @@ class Solution {
 public:
     int countTriplets(vector<int>& arr) {
 
-	// parameter
+	// parameters
         int triplet_count = 0;
 	std::unordered_map<int, std::vector<int>> xor_idx;
 
