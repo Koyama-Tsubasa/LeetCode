@@ -9,8 +9,7 @@ public:
 
         // start computing
         // calculate prefix sum
-        preSum[0] = arr[0];
-        for (int i=1; i<arr_size; i++) preSum[i] = preSum[i-1] + arr[i];
+        std::partial_sum(arr.begin(), arr.end(), preSum.begin());
 
         // calculate the sum of subarrays from array size 3 (3, 5, 7, ...)
         OLS_sum = preSum[arr_size-1];
