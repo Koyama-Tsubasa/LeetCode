@@ -44,8 +44,7 @@ In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wi
 [Line Sweep](https://leetcode.com/tag/line-sweep/)
 
 ## Future Plans
-* **4/10 ~ 4/16: [Prefix Sum](https://leetcode.com/tag/prefix-sum/)**
-* 4/17 ~ 4/23: [Sliding Window](https://leetcode.com/tag/sliding-window/)
+* **4/17 ~ 4/23: [Sliding Window](https://leetcode.com/tag/sliding-window/)**
 * 4/24 ~ 4/30: [Queue](https://leetcode.com/tag/queue/)
 * 5/1 ~ 5/7: [Enumeration](https://leetcode.com/tag/enumeration/)
 * 5/8 ~ 5/14: [Segment Tree](https://leetcode.com/tag/segment-tree/)
