@@ -2,7 +2,7 @@ class Solution {
 public:
     int minSubarray(vector<int>& nums, int p) {
         
-        // parameter
+        // parameters
         int subarray_size = nums.size();
         int remainder = 0; 
         std::unordered_map<int, int> preSum_index;
