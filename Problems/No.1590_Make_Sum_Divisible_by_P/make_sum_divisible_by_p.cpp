@@ -17,9 +17,11 @@ public:
             preSum_index[0] = -1;
             for (int i=0; i<nums.size(); i++) {
 
+                // calculate prefix sum with %p & save the index
                 pre_sum = (pre_sum + nums[i]) % p;
                 preSum_index[pre_sum] = i;
 
+                // find if the gap between the current prefix sum and the target remainder exist
                 find_gap = (pre_sum - remainder + p) % p;
                 if (preSum_index.find(find_gap) != preSum_index.end())
                     subarray_size = std::min(subarray_size, i-preSum_index[find_gap]);
