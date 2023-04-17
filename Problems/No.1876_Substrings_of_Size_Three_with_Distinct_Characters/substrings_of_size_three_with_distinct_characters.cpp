@@ -5,7 +5,7 @@ public:
         // parameters
         int count = 0;
         int duplicated = 0;
-        std::vector<int> check_count(26, 0);
+        std::unordered_map<char, int> check_count;
 
         // start computing
         if (s.length() < 3) return 0;
@@ -13,18 +13,16 @@ public:
 
             for (int i=0; i<s.length(); i++) {
 
-                int curr_alpha_ID = s[i] - 'a';
-                check_count[curr_alpha_ID]++;
-                if (check_count[curr_alpha_ID] == 2) duplicated++;
+                check_count[s[i]]++;
+                if (check_count[s[i]] == 2) duplicated++;
 
                 if (i < 2) continue;
                 else {
 
                     if (duplicated == 0) count++;
 
-                    int start_of_curr_substring = s[i-2] - 'a';
-                    check_count[start_of_curr_substring]--;
-                    if (check_count[start_of_curr_substring] == 1) duplicated--;
+                    check_count[s[i-2]]--;
+                    if (check_count[s[i-2]] == 1) duplicated--;
 
                 }
 
