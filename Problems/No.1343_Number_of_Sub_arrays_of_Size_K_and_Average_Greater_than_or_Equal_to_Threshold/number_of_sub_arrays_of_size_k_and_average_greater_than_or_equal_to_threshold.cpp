@@ -2,7 +2,7 @@ class Solution {
 public:
     int numOfSubarrays(vector<int>& arr, int k, int threshold) {
         
-        // parameter
+        // parameters
         int target_threshold = k*threshold;
         int k_sum = 0;
         int cleared_subarrays = 0;
