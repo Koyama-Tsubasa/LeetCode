@@ -2,7 +2,7 @@ class Solution {
 public:
     int maximizeWin(vector<int>& prizePositions, int k) {
         
-        // parameter
+        // parameters
         int partial_start = 0;
         int max_win_2segs = 0;
         std::vector<int> max_wins(prizePositions.size()+1, 0);
