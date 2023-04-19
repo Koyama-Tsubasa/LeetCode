@@ -19,10 +19,10 @@ public:
 
             if (buddies.count(s[i])) continue;
 
-            std::string left_substring = longestNiceSubstring(s.substr(0, i));
-            std::string right_substring = longestNiceSubstring(s.substr(i+1));
+            std::string left_substr = longestNiceSubstring(s.substr(0, i));
+            std::string right_substr = longestNiceSubstring(s.substr(i+1));
 
-            return (left_substring.length() >= right_substring.length()) ? left_substring : right_substring;
+            return (left_substr.length() >= right_substr.length()) ? left_substr : right_substr;
 
         }
 
