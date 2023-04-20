@@ -18,11 +18,11 @@ public:
             while ((right <= s_len) && 
                    (char_map['a'] >= k) && (char_map['b'] >= k) && (char_map['c'] >= k)) {
                 
-                minutes = std::min(minutes, left + (s_len-right));
                 if (right < s_len) char_map[s[right]]--;
                 right++;
 
             }
+            minutes = std::min(minutes, left + (s_len-right) + 1);
             char_map[s[left]]++;
 
         }
