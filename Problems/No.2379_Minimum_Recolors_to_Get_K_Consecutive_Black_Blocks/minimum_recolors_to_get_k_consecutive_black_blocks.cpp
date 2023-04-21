@@ -3,7 +3,7 @@ public:
     int minimumRecolors(string blocks, int k) {
         
         // parameters
-        int min_changes = 0;
+        int min_changes;
         int num_of_w = 0;
 
         // start computing
