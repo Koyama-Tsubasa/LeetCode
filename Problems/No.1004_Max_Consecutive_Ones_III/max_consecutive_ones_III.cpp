@@ -2,7 +2,7 @@ class Solution {
 public:
     int longestOnes(vector<int>& nums, int k) {
         
-        // parameter
+        // parameters
         int max_ones = 0;
         int start_idx = 0;
 
