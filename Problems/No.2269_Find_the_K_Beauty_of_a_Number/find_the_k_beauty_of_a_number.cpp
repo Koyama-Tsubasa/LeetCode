@@ -2,7 +2,7 @@ class Solution {
 public:
     int divisorSubstrings(int num, int k) {
         
-        // parameter
+        // parameters
         int k_beauty = 0;
         std::string numString = std::to_string(num);
 
