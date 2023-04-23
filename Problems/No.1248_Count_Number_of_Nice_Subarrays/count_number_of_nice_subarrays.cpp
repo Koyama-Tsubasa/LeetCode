@@ -2,7 +2,7 @@ class Solution {
 public:
     int numberOfSubarrays(vector<int>& nums, int k) {
         
-        // parameter
+        // parameters
         int subarray_start = 0;
         int temp_count = 0;
         int nice_count = 0;
