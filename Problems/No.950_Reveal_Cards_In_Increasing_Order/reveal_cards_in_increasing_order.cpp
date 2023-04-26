@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> deckRevealedIncreasing(vector<int>& deck) {
         
-        // parameter
+        // parameters
         std::vector<int> ReorderedDeck(deck.size(), 0);
         std::queue<int> increasing_deck_idx;
 
