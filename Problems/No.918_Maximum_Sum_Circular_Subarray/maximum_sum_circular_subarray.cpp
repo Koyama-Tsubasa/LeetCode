@@ -16,6 +16,7 @@ public:
         for (auto &num: nums) {
 
             total_sum += num;
+            
             local_MAX = std::max(local_MAX + num, num);
             local_min = std::min(local_min + num, num);
 
