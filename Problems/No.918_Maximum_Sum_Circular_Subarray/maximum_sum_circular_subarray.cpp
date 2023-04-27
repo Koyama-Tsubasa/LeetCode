@@ -6,8 +6,10 @@ public:
         // https://leetcode.com/problems/maximum-sum-circular-subarray/solutions/3068804/kadane-min-sum-subarray/
 
         // parameters
-        int global_MAX = global_min = nums[0];
-        int local_MAX = local_min = 0;
+        int global_MAX = nums[0];
+        int global_min = nums[0];
+        int local_MAX = 0;
+        int local_min = 0;
         int total_sum = 0;
 
         //  start computing (using modified Kadane's Algorithm)
