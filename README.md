@@ -44,8 +44,7 @@ In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wi
 [Line Sweep](https://leetcode.com/tag/line-sweep/)
 
 ## Future Plans
-* **4/24 ~ 4/30: [Queue](https://leetcode.com/tag/queue/)**
-* 5/1 ~ 5/7: [Enumeration](https://leetcode.com/tag/enumeration/)
+* **5/1 ~ 5/7: [Enumeration](https://leetcode.com/tag/enumeration/)**
 * 5/8 ~ 5/14: [Segment Tree](https://leetcode.com/tag/segment-tree/)
 * 5/15 ~ 5/21: [Hash Function](https://leetcode.com/tag/hash-function/)
 * 5/22 ~ 5/28: [Shortest Path](https://leetcode.com/tag/shortest-path/)
