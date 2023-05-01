@@ -6,10 +6,18 @@ class Solution(object):
         :rtype: List[int]
         """
 
+        # check if the substring is all '?'
+        def AllQ(checking_str):
+            for c in checking_str:
+                if (c != '?'):
+                    return False
+            return True
+
+
         # check if the target idx from i can be replaced by the stamp
-        def Replacable(start_idx):
+        def Replacable(temp):
             for i in range(stamp_len):
-                if ((target[start_idx + i] != stamp[i]) and (target[start_idx + i] != '?')):
+                if ((temp[i] != stamp[i]) and (temp[i] != '?')):
                     return False
             return True
 
@@ -18,25 +26,20 @@ class Solution(object):
         stamp_idx = []
         stamp_len = len(stamp)
         target_len = len(target)
-        replace_count = 0
-        replaced = [False] * target_len
+        changed = True
     
         # start computing
-        while (replace_count < target_len):
+        while changed:
             changed = False
             for i in range(target_len-stamp_len+1):
-                if not replaced[i] and Replacable(i):
+                temp_str = target[i:i+stamp_len]
+                
+                if AllQ(temp_str):
+                    continue
+                if Replacable(temp_str):
                     # replace the corresponding stamp in target to ? & count the replaced character num
                     changed = True
-                    replaced[i] = True
-                    for j in range(stamp_len):
-                        if (target[i+j] != '?'):
-                            replace_count += 1
                     target = target[:i] + ("?" * stamp_len) + target[i+stamp_len:]
                     stamp_idx.append(i)
-                    if (replace_count == target_len):
-                        break
-            if not changed:
-                return []
-        
-        return reversed(stamp_idx)
+                
+        return reversed(stamp_idx) if AllQ(target) else []
