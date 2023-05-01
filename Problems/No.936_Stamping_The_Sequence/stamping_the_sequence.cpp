@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    // check if the substring is all ?
+    // check if the substring is all '?'
     bool AllQ(std::string &checking_str) {
        
         for (auto &c: checking_str) if (c != '?') return false;
