@@ -8,11 +8,11 @@ public:
 
         // start computing (using Sieve of Eratosthenes Method)
         if (n <= 1) return 0;
-        for (int i=2; i<n; i++)
+        for (long long i=2; i<n; i++)
             if (primes[i]) {
 
                 prime_cnt++;
-                int check_multiple = i;
+                long long check_multiple = i * i;
                 while (check_multiple < n) {
 
                     primes[check_multiple] = false;
