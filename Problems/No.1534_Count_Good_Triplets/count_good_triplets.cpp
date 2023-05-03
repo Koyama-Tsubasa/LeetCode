@@ -2,7 +2,7 @@ class Solution {
 public:
     int countGoodTriplets(vector<int>& arr, int a, int b, int c) {
 
-        // parameter
+        // parameters
         int cnt = 0;
         int arr_size = arr.size();
 
