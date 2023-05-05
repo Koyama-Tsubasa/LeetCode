@@ -2,7 +2,7 @@ class Solution {
 public:
     bool containsPattern(vector<int>& arr, int m, int k) {
         
-        // parameters
+        // parameter
         int pattern_cnt = 0;
 
         // start computing
