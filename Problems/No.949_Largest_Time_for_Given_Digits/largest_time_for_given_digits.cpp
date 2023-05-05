@@ -2,7 +2,7 @@ class Solution {
 public:
     string largestTimeFromDigits(vector<int>& arr) {
         
-        // parameter
+        // parameters
         std::string latest_time = "";
         std::vector<int> temp_time;
 
