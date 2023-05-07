@@ -33,7 +33,7 @@ public:
                 int curr_distance = -1;
                 auto subset_copy = curr_subset;
 
-                // visit from each city in the current subset using queue
+                // visit from each city in the current subset using BFS
                 std::queue<int> visit_city;
                 visit_city.push(city);
                 subset_copy.erase(city);
