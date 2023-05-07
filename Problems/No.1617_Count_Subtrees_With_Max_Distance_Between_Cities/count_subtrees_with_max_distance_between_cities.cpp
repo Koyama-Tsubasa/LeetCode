@@ -16,7 +16,7 @@ public:
 
         }
         
-        // check all possible enumerations
+        // check all possible subsets
         dis_cnt[0] = edges.size();
         for (int i=0; i<std::pow(2, n); i++) {
 
