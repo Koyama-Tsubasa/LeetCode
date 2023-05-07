@@ -10,16 +10,12 @@ public:
         for (auto &c: s) {
 
             if (!std::isalpha(c)) continue;
-            if (std::islower(c)) {
 
-                char upper_c = std::toupper(c);
-                if (letter_set.find(upper_c) != letter_set.end())
-                    greatest_letter = (upper_c > greatest_letter) ? upper_c : greatest_letter;
+            char check;
+            if (std::islower(c) && (letter_set.find(std::toupper(c)) != letter_set.end())) check = std::toupper(c);
+            else if (std::isupper(c) && (letter_set.find(std::tolower(c)) != letter_set.end())) check = c;
 
-            }
-            else if (letter_set.find(std::tolower(c)) != letter_set.end())
-                    greatest_letter = (c > greatest_letter) ? c : greatest_letter;
-
+            greatest_letter = (check > greatest_letter) ? check : greatest_letter;
             letter_set.insert(c);
 
         }
