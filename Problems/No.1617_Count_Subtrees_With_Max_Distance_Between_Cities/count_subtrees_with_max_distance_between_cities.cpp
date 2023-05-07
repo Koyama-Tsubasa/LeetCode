@@ -20,7 +20,7 @@ public:
         dis_cnt[0] = edges.size();
         for (int i=0; i<std::pow(2, n); i++) {
 
-            // decide current subset and check if it's size > 1
+            // decide current subset and check if it's size >= 3
             std::unordered_set<int> curr_subset;
             for (int j=0; j<n; j++)
                 if ((i & (1<<j)) != 0) curr_subset.insert(j+1);
