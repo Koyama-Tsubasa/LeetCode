@@ -11,17 +11,17 @@ public:
         
     }
 
-    int find_low(std::vector<int> &idxs, int low_limit) {
+    int find_left(std::vector<int> &idxs, int L_limit) {
 
-        int low = -1;
+        int left_edge = -1;
         int left = 0, right = idxs.size()-1;
         
         while (left <= right) {
 
             int mid = (left + right)/2;
-            if (idxs[mid] < low_limit) {
+            if (idxs[mid] < L_limit) {
 
-                low = mid;
+                left_edge = mid;
                 left = mid + 1;
 
             }
@@ -29,21 +29,21 @@ public:
 
         }
 
-        return low + 1;
+        return left_edge + 1;
 
     }
 
-    int find_high(std::vector<int> &idxs, int high_limit) {
+    int find_right(std::vector<int> &idxs, int R_limit) {
 
-        int high = idxs.size();
+        int right_edge = idxs.size();
         int left = 0, right = idxs.size()-1;
         
         while (left <= right) {
 
             int mid = (left + right)/2;
-            if (high_limit < idxs[mid]) {
+            if (R_limit < idxs[mid]) {
 
-                high = mid;
+                right_edge = mid;
                 right = mid - 1;
 
             }
@@ -51,16 +51,16 @@ public:
 
         }
 
-        return high - 1;
+        return right_edge - 1;
 
     }
     
     int query(int left, int right, int value) {
         
-        int lower_ID = find_low(value_mapping[value], left);
-        int higher_ID = find_high(value_mapping[value], right);
+        int left_ID = find_left(value_mapping[value], left);
+        int right_ID = find_right(value_mapping[value], right);
         
-        return (higher_ID - lower_ID + 1);
+        return (right_ID - left_ID + 1);
 
     }
 };
