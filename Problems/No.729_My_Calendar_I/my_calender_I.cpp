@@ -3,10 +3,10 @@ class Event_Node {
 public:
     int start_date, end_date;
     Event_Node *before, *after;
-    Event_Node(int start, int end) {
+    Event_Node(int start_date, int end_date) {
 
-        start_date = start;
-        end_date = end;
+        this->start_date = start_date;
+        this->end_date = end_date;
         before = nullptr;
         after = nullptr;
 
