@@ -41,7 +41,9 @@ public:
         return node;
 
     }
-
+    
+    void update(int index, int val) {root = update_path(root, index, val);}
+    
     RangeSum *update_path(RangeSum *node, int idx, int val) {
 
         if ((node->range_start == idx) && (node->range_end == idx)) node->rsum = val;
@@ -57,8 +59,8 @@ public:
 
     }
     
-    void update(int index, int val) {root = update_path(root, index, val);}
-
+    int sumRange(int left, int right) {return CalSRangeum(root, left, right);}
+    
     int CalSRangeum(RangeSum *node, int left, int right) {
 
         if ((left == node->range_start) && (right == node->range_end)) return node->rsum;
@@ -69,7 +71,6 @@ public:
 
     }
     
-    int sumRange(int left, int right) {return CalSRangeum(root, left, right);}
 };
 
 /**
