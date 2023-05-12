@@ -26,7 +26,7 @@ private:
         else if (start > node->end_date) return check_valid(node->after, start, end);
         else if (end < node->start_date) return check_valid(node->before, start, end);
         else if (node->booking_cnt < 2) return check_valid(node->before, std::min(start, node->start_date), std::max(start, node->start_date)-1) &&
-                                         check_valid(node->after, std::min(end, node->end_date)+1, std::max(end, node->end_date)); 
+                                               check_valid(node->after, std::min(end, node->end_date)+1, std::max(end, node->end_date)); 
         else return false;
 
     }
