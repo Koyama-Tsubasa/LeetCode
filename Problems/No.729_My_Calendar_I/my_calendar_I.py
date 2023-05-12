@@ -15,15 +15,11 @@ class MyCalendar(object):
         if not node:
             return True
         elif (start >= node.end_date):
-            if not node.after:
-                return True
-            else:
-                return self.check_valid(node.after, start, end)
+            return self.check_valid(node.after, start, end)
         elif (end <= node.start_date):
-            if not node.before:
-                return True
-            else:
-                return self.check_valid(node.before, start, end)
+            return self.check_valid(node.before, start, end)
+        else:
+            return False
     
     def update_calendar(self, node, start, end):
         if not node:
