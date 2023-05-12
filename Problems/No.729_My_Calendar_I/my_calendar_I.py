@@ -25,13 +25,13 @@ class MyCalendar(object):
             else:
                 return self.check_valid(node.before, start, end)
     
-    def update_calender(self, node, start, end):
+    def update_calendar(self, node, start, end):
         if not node:
             node = Event_Node(start, end)
         elif (start >= node.end_date):
-            node.after = self.update_calender(node.after, start, end)
+            node.after = self.update_calendar(node.after, start, end)
         else:
-            node.before = self.update_calender(node.before, start, end)
+            node.before = self.update_calendar(node.before, start, end)
         return node
 
     def book(self, start, end):
@@ -43,7 +43,7 @@ class MyCalendar(object):
 
         valid = self.check_valid(self.root, start, end)
         if valid:
-            self.root = self.update_calender(self.root, start, end)
+            self.root = self.update_calendar(self.root, start, end)
         return valid
         
 
