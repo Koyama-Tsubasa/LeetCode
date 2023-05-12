@@ -22,18 +22,8 @@ private:
     bool check_valid(Event_Node *node, int start, int end) {
 
         if (node == nullptr) return true;
-        else if (start >= node->end_date) {
-
-            if (node->after == nullptr) return true;
-            else return check_valid(node->after, start, end);
-
-        }
-        else if (end <= node->start_date) {
-
-            if (node->before == nullptr) return true;
-            else return check_valid(node->before, start, end);
-
-        }
+        else if (start >= node->end_date) return check_valid(node->after, start, end);
+        else if (end <= node->start_date) return check_valid(node->before, start, end);
         else return false;
 
     }
