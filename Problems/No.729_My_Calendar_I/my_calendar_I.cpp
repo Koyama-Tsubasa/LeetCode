@@ -38,11 +38,11 @@ private:
 
     }
 
-    Event_Node *update_calender(Event_Node *node, int start, int end) {
+    Event_Node *update_calendar(Event_Node *node, int start, int end) {
 
         if (node == nullptr) node = new Event_Node(start, end);
-        else if (start >= node->end_date) node->after = update_calender(node->after, start, end);
-        else node->before = update_calender(node->before, start, end);
+        else if (start >= node->end_date) node->after = update_calendar(node->after, start, end);
+        else node->before = update_calendar(node->before, start, end);
 
         return node;
 
@@ -56,7 +56,7 @@ public:
     bool book(int start, int end) {
         
         bool valid = check_valid(root, start, end);
-        if (valid) root = update_calender(root, start, end);
+        if (valid) root = update_calendar(root, start, end);
         return valid;
 
     }
