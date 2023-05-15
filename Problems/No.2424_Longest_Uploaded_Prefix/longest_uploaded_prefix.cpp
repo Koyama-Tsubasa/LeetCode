@@ -2,15 +2,15 @@ class LUPrefix {
 
 private:
     int LUP = 0;
-    std::map<int, bool> Vstream;
+    std::set<int> Vstream;
 
 public:
-    LUPrefix(int n) {Vstream[0] = true;}
+    LUPrefix(int n) {Vstream.insert(0);}
     
     void upload(int video) {
 
-        Vstream[video] = true;
-        while (Vstream[LUP+1] == true) LUP++;
+        Vstream.insert(video);
+        while (Vstream.count(LUP+1)) LUP++;
 
     }
     
