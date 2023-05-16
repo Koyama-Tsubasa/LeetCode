@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<string> findRepeatedDnaSequences(string s) {
         
-        // parameter
+        // parameters
         std::vector<std::string> RepeatedDNA;
         std::unordered_map<std::string, int> DNA_cnt;
 
