@@ -2,7 +2,7 @@ class Solution {
 public:
     bool hasAllCodes(string s, int k) {
         
-        // parameter
+        // parameters
         std::set<std::string> k_binary_codes;
         int all_codes = 1<<k;
 
