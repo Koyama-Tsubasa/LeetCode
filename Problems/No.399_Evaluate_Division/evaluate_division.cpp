@@ -10,11 +10,11 @@ public:
         else {
 
             double temp;
-            for (auto &[next_node, cost]: Graph[node]) 
+            for (auto &[next_node, ans]: Graph[node]) 
                 if (visited.count(next_node) == 0) {
 
                     visited.insert(next_node);
-                    temp = DFS(val*cost, next_node, dest, visited, Graph);
+                    temp = DFS(val*ans, next_node, dest, visited, Graph);
                     if (temp != -1.0) return temp;
 
                 }
