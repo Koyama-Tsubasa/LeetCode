@@ -43,7 +43,7 @@ In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wi
 [Hash Function](https://leetcode.com/tag/hash-function/), 
 [Line Sweep](https://leetcode.com/tag/line-sweep/)
 
-## Future Plans
-* **5/22 ~ 5/28: [Shortest Path](https://leetcode.com/tag/shortest-path/)**
-* 5/29 ~ 6/4: [Doubly-Linked List](https://leetcode.com/tag/doubly-linked-list/), [Minimum Spanning Tree](https://leetcode.com/tag/minimum-spanning-tree/), [Line Sweep](https://leetcode.com/tag/line-sweep/)
-* 6/5 ~ 6/11: [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), [Topological Sort](https://leetcode.com/tag/topological-sort/)
+## Future Plans (temporary stop)
+* **[Shortest Path](https://leetcode.com/tag/shortest-path/)**
+* [Doubly-Linked List](https://leetcode.com/tag/doubly-linked-list/), [Minimum Spanning Tree](https://leetcode.com/tag/minimum-spanning-tree/), [Line Sweep](https://leetcode.com/tag/line-sweep/)
+* [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), [Topological Sort](https://leetcode.com/tag/topological-sort/)
