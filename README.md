@@ -44,6 +44,6 @@ In the field of [Electronic Design Automation (EDA)](https://en.wikipedia.org/wi
 [Line Sweep](https://leetcode.com/tag/line-sweep/)
 
 ## Future Plans
-* **7/10~7/16: [Shortest Path](https://leetcode.com/tag/shortest-path/)**
+* [Shortest Path](https://leetcode.com/tag/shortest-path/)
 * [Doubly-Linked List](https://leetcode.com/tag/doubly-linked-list/), [Minimum Spanning Tree](https://leetcode.com/tag/minimum-spanning-tree/), [Line Sweep](https://leetcode.com/tag/line-sweep/)
 * [Eulerian Circuit](https://leetcode.com/tag/eulerian-circuit/), [Topological Sort](https://leetcode.com/tag/topological-sort/)
